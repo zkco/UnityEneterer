@@ -6,6 +6,7 @@ using UnityEngine.U2D;
 
 public class CharacterAnimationController : AnimationController
 {
+
     private static readonly int isWalking = Animator.StringToHash("isWalking");
 
     private readonly float Threshold = 0.5f;

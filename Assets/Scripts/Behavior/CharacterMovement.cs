@@ -9,7 +9,6 @@ public class CharacterMovement : MonoBehaviour
     private Rigidbody2D moveRigid;
 
     private Vector2 moveDirection = Vector2.zero;
-
     [SerializeField] private DefaultStat stat;
 
     private void Awake()

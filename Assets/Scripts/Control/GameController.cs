@@ -8,6 +8,7 @@ public class GameController : MonoBehaviour
     public event Action<Vector2> OnMoveEvent;
     public event Action<Vector2> OnLookEvent;
 
+
     protected virtual void Awake()
     {
 

@@ -4,5 +4,6 @@ using UnityEngine;
 public class DefaultStat : ScriptableObject
 {
     [Header("Base Stats")]
+    public string _name = string.Empty;
     public float speed;
 }
