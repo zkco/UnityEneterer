@@ -15,6 +15,10 @@ public class SubmitCharacterNameButton : ButtonOnClickDefault
     public void SubmitCharacterName()
     {
         string nameHolder = inputField.text;
-        PlayerName.text = nameHolder;
+        if (nameHolder.Length >= 2 && nameHolder.Length <= 10)
+        {
+            PlayerName.text = nameHolder;
+            base.ChangeSetActiveStatusToFalse();
+        }
     }
 }
